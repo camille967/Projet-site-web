@@ -1,0 +1,98 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:tan;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color:rgb(226, 186, 133);
+
+}
+ul li a.active {
+    background-color:rgb(142, 115, 80);
+}
+
+img {
+  width:229.5px;
+  height:306px;
+}
+
+#image1 {
+  width:350px;
+  height:262.5px;
+  display:block;
+  border-radius:5%; /*Élément CSS avancé: coin arrondi*/
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#div_bouttons {
+  display:flex;
+  justify-content:center;
+  gap:1.0%;
+}
+
+.div_images {
+  display:flex;
+  justify-content:center;
+  gap:7.5%;
+}
+
+h1 {
+  text-align:center;
+  font-size:600%;
+  font-family:cursive;
+  color:rgb(141, 95, 34);
+}
+
+h3 {
+  margin-left:20%;
+  margin-right:20%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition:3s;
+  color:black;
+}
+
+h3:hover { /*Élément CSS avancé:transition*/
+  color:rgb(116, 79, 30);
+}
+
+h2 {
+  text-align:center;
+}
+
+p {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.p1 {
+  margin-left:20%;
+  margin-right:20%;
+}
+
+button {
+  width:15px;
+  height:15px;
+  border-radius:50%;
+  background-color:darkgray;
+}
+
+#b1 {
+  background-color:black;
+}
+
+
